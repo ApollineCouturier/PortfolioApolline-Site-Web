@@ -344,6 +344,10 @@ header .header-content .content p {
     width: 5%;
 }
 
+.btn-success {
+    margin-left: 45%;
+}
+
 .life-history{
     background: url(../images/history.JPG);
     background-size: cover;
@@ -397,54 +401,6 @@ header .header-content .content p {
     font-weight: 500;
 }
 
-.testimonials .carousel-indicators {
-    bottom: -65px;
-}
-
-.testimonials .carousel-indicators li {
-    background-color: var(--primary-color);
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-.testimonials h2 {
-    font-weight: 600;
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.testimonials .testimonials-single {
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.testimonials .testimonials-single img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.testimonials .testimonials-single h4 {
-    font-size: 1.3rem;
-    color: var(--primary-color);
-    font-weight: 600;
-}
-
-.testimonials .testimonials-single p.occupation {
-    font-size: 1rem;
-    color: #333;
-    font-weight: 500;
-}
-
-.testimonials .testimonials-single .text p {
-    font-size: .9rem;
-    line-height: 1.5rem;
-    font-weight: 400;
-}
 
 
 .contact {
@@ -591,33 +547,6 @@ footer .footer .footer-social ul li a i {
     transform: translate(-50%, -50%);
 }
 
-/*css for alert messages*/
-  
-.alert-success{
-    z-index: 1;
-    background: #D4EDDA;
-    font-size: 18px;
-    padding: 20px 40px;
-    min-width: 220px;
-    position: fixed;
-    right: 0;
-    top: 80px;
-    border-left: 8px solid #3AD66E;
-    border-radius: 4px;
-  }
-  
-  .alert-error{
-    z-index: 1;
-    background: #FFF3CD;
-    font-size: 18px;
-    padding: 20px 40px;
-    min-width: 220px;
-    position: fixed;
-    right: 0;
-    top: 80px;
-    border-left: 8px solid #FFA502;
-    border-radius: 4px;
-  }
 
 @media (max-width: 992px) {
     .navbar-collapse {
