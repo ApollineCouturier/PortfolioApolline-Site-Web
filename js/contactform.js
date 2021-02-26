@@ -27,6 +27,15 @@ function submitForm(e){
     var phone = getInputVal('phone');
     var message = getInputVal('message');
 
+    if(message == "") {
+        alert ("Veuillez renseigner votre message!");
+        return false;
+    }
+    if(phone == "") {
+        alert ("Veuillez renseigner votre téléphone!");
+        return false;
+    }
+
    //Save Message
     saveMessage(name, company, email, phone, message);
 
@@ -40,6 +49,7 @@ function submitForm(e){
 
     // Clear Form
     document.getElementById('contactForm').reset();
+    return true
 }
 
 // Fuction To get form values
