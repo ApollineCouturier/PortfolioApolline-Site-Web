@@ -6,41 +6,38 @@ Ceci est mon site portfolio que j'ai essayé de faire pendant mon temps libre en
 Accueil:
 ========
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioApolline-Site-Web/blob/main/imgReadMe/home-apo.PNG)
 
 Compétences:
 ========
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioApolline-Site-Web/blob/main/imgReadMe/apo-about.PNG)
 
 Mes services:
 ============
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioApolline-Site-Web/blob/main/imgReadMe/apo-services.PNG)
 
 La galerie:
 ============
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioApolline-Site-Web/blob/main/imgReadMe/apo-galerie.PNG)
 
 Expérience et éducation:
 =============
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
-
-
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioApolline-Site-Web/blob/main/imgReadMe/exp-apo.PNG)
 
 Contact:
 ============
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioApolline-Site-Web/blob/main/imgReadMe/contact-apo.PNG)
 
 
 
 La galerie projet:
 ============
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioApolline-Site-Web/blob/main/imgReadMe/apo-galerie-home.PNG)
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioApolline-Site-Web/blob/main/imgReadMe/apo-galerie-photos.PNG)
