@@ -1,7 +1,12 @@
 Site de mon portfolio
 
 
-Ceci est mon site portfolio que j'ai essayé de faire pendant mon temps libre en suivant des tutos.
+Ceci est mon site portfolio que j'ai essayé de faire pendant mon temps libre en suivant des tutos. Je travaille sur une API qui contiendra les informations de ma base de donnée Firebase pour le contactforms.
+
+le site web:
+============
+http://apollinecouturiergauducheauportfolio.fr/
+
 
 Accueil:
 ========
