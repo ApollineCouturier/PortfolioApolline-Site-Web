@@ -305,49 +305,35 @@
         </div>
     </div>
     <div class="section containercontact"  id="contact">
-        <h1 class="brand"><span>Contacter</h1>
-            <div class="wrapper ">
-                <div class="company-info">
-                <ul>
-                    <li><i class="fa fa-phone"></i> 06.59.28.13.16</li>
-                    <br>
-                    <li><i class="fa fa-envelope"></i>  apolline.couturier-gauducheau@epitech.eu</li>
-                    <br>
-                    <li><a href="cv.pdf" download><i class="fa fa-info"></i>  Mon Cv à télécharger</a></li>
-                </ul> 
+        <div class="container">
+            <h1 class="contacth1">Me contacter</h1>
+            <div class="contact-info">
+                <div class="card">
+                    <i class="icon fa fa-envelope"></i>
+                    <div class="card-content">
+                        <h3>Email</h3>
+                        <span>apolline.couturier-gauducheau@epitech.eu</span>
+                    </div>
                 </div>
-                <div class="contact">
-                    <div class="alert">Message envoyé!</div>
-                    <form id="contactForm">
-                        <p>
-                            <label>Nom</label>
-                            <input type="name" name="name" id="name" required>
-                        </p>
-                        <p>
-                                <label>Entreprise</label>
-                                <input type="text" name="company" id="company">
-                        </p>
-                        <p>
-                                <label>Email</label>
-                                <input type="email" name="email" id="email" placeholder="example@email.com" required>
-                        </p>
-                        <p>
-                                <label>Téléphone</label>
-                                <input type="text" name="phone" id="phone">
-                        </p>
-                        <p class="full">
-                                <label>Message</label>
-                                <textarea name="message" rows="5" id="message"></textarea>
-                        </p>
-                        <p class="full">
-                        <button type="submit">Envoyer</button>
-                        </p>
-                    </form>
+            
+                <div class="card">
+                    <i class="icon fa fa-phone"></i>
+                    <div class="card-content">
+                        <h3>Téléphone</h3>
+                        <span>+336 59 28 13 16</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="icon fa fa-file"></i>
+                    <div class="card-content">
+                        <h3>CV</h3>
+                        <a href="cv.pdf"><span download>Télécharger</span></a>
+                    </div>
                 </div>
             </div>
         </div>
-        <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
-        <script src="js/contactform.js"></script>
+    </div>
     <footer><!-- footer start -->
         <div class="section container footer">
             <div class="footer-social">

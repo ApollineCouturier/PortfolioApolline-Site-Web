@@ -1,13 +1,13 @@
 // Initialize Firebase
 var config = {
-    apiKey: "******",
-    authDomain: "******",
-    databaseURL: "******",
-    projectId: "******",
-    storageBucket: "******",
-    messagingSenderId: "******",
-    appId: "******",
-    measurementId: "******"
+    apiKey: "AIzaSyAilqJAUA6MAe8_fYYjdgzAtWAI3BaKOZw",
+    authDomain: "testweb-artifice.firebaseapp.com",
+    databaseURL: "https://testweb-artifice.firebaseio.com",
+    projectId: "testweb-artifice",
+    storageBucket: "testweb-artifice.appspot.com",
+    messagingSenderId: "848834373957",
+    appId: "1:848834373957:web:a192770faebdb47995362c",
+    measurementId: "G-63GHDCEY9V"
   };
   firebase.initializeApp(config);
 
@@ -17,6 +17,9 @@ var config = {
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit',submitForm);
 // Submit Form
+
+
+
 function submitForm(e){
     e.preventDefault();
     
@@ -26,15 +29,6 @@ function submitForm(e){
     var email = getInputVal('email');
     var phone = getInputVal('phone');
     var message = getInputVal('message');
-
-    if(message == "") {
-        alert ("Veuillez renseigner votre message!");
-        return false;
-    }
-    if(phone == "") {
-        alert ("Veuillez renseigner votre téléphone!");
-        return false;
-    }
 
    //Save Message
     saveMessage(name, company, email, phone, message);
@@ -49,7 +43,6 @@ function submitForm(e){
 
     // Clear Form
     document.getElementById('contactForm').reset();
-    return true
 }
 
 // Fuction To get form values
