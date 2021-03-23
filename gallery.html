@@ -8,6 +8,7 @@
     <link rel = "icon" href = "images/portrait_Apolline.jpg" type = "image/png" sizes = "16x16">
     <!-- custom css -->
     <link rel="stylesheet" href="css_gallery/style.css">
+    <link rel="stylesheet" href="css/loader.css">
     <!-- google fonts -->
     <link rel = "stylesheet" href = "css_gallery/fonts.css">
     <!-- font awesome icons -->
@@ -24,6 +25,9 @@
   </head>
   <body>
 
+    <div class='spinner-wrapper'>
+      <div class="spinner"></div>
+    </div>
     <!-- navbar -->
     <nav class = "navbar">
       <div class = "nav-brand-toggler">
@@ -369,6 +373,16 @@
     </section>
     <!-- end of menu -->
     <!-- jQuery -->
+    <script>
+      let spinnerWrapper = document.querySelector('.spinner-wrapper');
+      let html = document.querySelector('html');
+    
+      window.addEventListener('load', function () {
+          // spinnerWrapper.style.display = 'none';
+          spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+          html.style.overflowY = "scroll";
+      });
+    </script>
     <script src = "js/jquery-3.5.1.js"></script>
     <!-- magnific popup -->
     <script src = "js/jquery.magnific-popup.min.js"></script>
