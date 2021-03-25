@@ -142,14 +142,6 @@ h1, h2, h3, h4, h5, h6, p{
     justify-content: center;
 }
 
-.cookies{
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../imgFood/about.jpg) center/cover fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
 .header h2{
     font-size: 1.2rem;
     color: #fff;
@@ -189,6 +181,7 @@ h1, h2, h3, h4, h5, h6, p{
 .menu {
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 80px;
 }
 .menu .title{
     text-align: center;
